@@ -14,6 +14,7 @@
   background-color: #7d9130;
   height: 300px;
   border: 2px solid red;
+  margin-bottom: 0px;
 }
 
 .jumbotron h1{
@@ -32,16 +33,28 @@
   font-family: 'Raleway','Helvetica', sans-serif;
   font-style: italic;
   margin-top: -20px;
+  margin-bottom: 0px;
   text-transform: lowercase;
   border: 2px solid green;
 }
 
 /*NAVBAR NEW*/
 
+.navbar-new {
+  vertical-align: middle;
+  background-color: #333;
+}
+
 div.navbar-new {
   /*background-color: darkgray;*/
   text-align: center;
   border: 2px solid purple;
+  margin-top: 0px;
+  height: 40px;
+}
+
+.navbar-new a {
+
 }
 
 li.navbar-new {
