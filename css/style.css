@@ -90,19 +90,20 @@ ul.navbar-new {
 li.navbar-new {
   z-index: 10;
   display: table-cell;
-  margin: 0px 40px;
+  /*margin: 0px 40px;*/
   text-align: center;
   width: 40%;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 li.navbar-img {
   width: 10%;
-  border: 2px solid yellow;
+  /*border: 2px solid yellow;*/
   /*height: 100%;*/
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  padding: 1px 1px;
 }
 
 .navbar-new img {
