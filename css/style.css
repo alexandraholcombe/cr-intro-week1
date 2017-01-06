@@ -1,0 +1,23 @@
+/*Jumbotron*/
+@font-face {
+    font-family: 'Kitten-Trial';
+    src: url('../resources/Kitten-trial.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.jumbotron {
+  background-image: url(../images/bannerimgfull.jpg);
+  background-repeat: no-repeat;
+  background-color: mediumspringgreen;
+
+
+}
+
+.jumbotron h1{
+  font-family:'Kitten-Trial', 'Leckerli One', cursive;
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 4px 4px #333;
+
+}
