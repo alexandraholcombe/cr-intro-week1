@@ -148,8 +148,16 @@ li.navbar-img {
 /*PROJECTS GRID*/
 
 .projects-grid {
+  display: table;
+  overflow: hidden;
+}
+.project-column {
   /*border: 2px solid red;*/
-  padding: .5%;
+  padding-left: .5%;
+  padding-right: .5%;
+  /*margin-bottom: -99999px;
+  padding-bottom:99999px;*/
+  display: table-cell;
 }
 
 div.projects {
@@ -217,3 +225,10 @@ img.projects {
 .gh-icon:hover {
    background-image: url('images/gh-logo-xs-hover.png');
 }*/
+
+/*GOALS*/
+
+.goals {
+  margin: 30px auto 0px auto;
+  width: 80%;
+}
