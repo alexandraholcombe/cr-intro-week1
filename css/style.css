@@ -125,6 +125,7 @@ li.navbar-img {
   /*border: 2px solid red;*/
   width: 75%;
   box-shadow: 0px 0px 20px #333;
+  margin-bottom: 30px;
 }
 
 .container-fluid h1 {
@@ -185,6 +186,15 @@ img.projects {
   color: #333;
 }
 
+.day-id {
+  font-style: italic;
+}
+
+.day-id strong {
+  font-family: 'Raleway', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+}
 /*GITHUB ICON*/
 
 /*img.gh-icon {
