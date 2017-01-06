@@ -92,6 +92,20 @@ li.navbar-new {
   display: table-cell;
   margin: 0px 40px;
   text-align: center;
-  width: 33%;
-  /*border: 2px solid red;*/
+  width: 40%;
+  border: 2px solid red;
+}
+
+li.navbar-img {
+  width: 10%;
+  border: 2px solid yellow;
+  /*height: 100%;*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-new img {
+  max-width:80%;
+  max-height:80%;
 }
