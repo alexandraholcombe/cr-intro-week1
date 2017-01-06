@@ -1,4 +1,8 @@
-/*Jumbotron*/
+body {
+  background-color: #d5c3ad;
+}
+
+/*JUMBOTRON*/
 @font-face {
     font-family: 'Kitten-Trial';
     src: url('../resources/Kitten-trial.ttf');
@@ -13,8 +17,10 @@
   background-position: 0% 60%;
   background-color: #7d9130;
   height: 300px;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   margin-bottom: 0px;
+  position: relative;
+  z-index: 8;
 }
 
 .jumbotron h1{
@@ -24,7 +30,7 @@
   text-shadow: 4px 4px #333;
   text-align: center;
   margin-top: 45px;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 }
 
 .jumbotron p{
@@ -35,7 +41,7 @@
   margin-top: -20px;
   margin-bottom: 0px;
   text-transform: lowercase;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
 }
 
 /*NAVBAR NEW*/
@@ -43,14 +49,17 @@
 .navbar-new {
   vertical-align: middle;
   background-color: #333;
+  height: 50px;
+  z-index: 7px;
 }
 
 div.navbar-new {
   /*background-color: darkgray;*/
   text-align: center;
-  border: 2px solid purple;
   margin-top: 0px;
-  height: 40px;
+  position: relative;
+  box-shadow: 3px 0px 20px #333;
+  /*border: 2px solid purple;*/
 }
 
 .navbar-new a {
@@ -82,4 +91,7 @@ li.navbar-new {
   z-index: 10;
   display: table-cell;
   margin: 0px 40px;
+  text-align: center;
+  width: 33%;
+  /*border: 2px solid red;*/
 }
