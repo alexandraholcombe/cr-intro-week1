@@ -30,7 +30,7 @@
 .jumbotron p{
   text-align: center;
   font-size: 40px;
-  font-family: 'Raleway','Helvetica', sans-serif;
+  font-family: 'Raleway','Helvetica Neue', sans-serif;
   font-style: italic;
   margin-top: -20px;
   margin-bottom: 0px;
@@ -54,9 +54,32 @@ div.navbar-new {
 }
 
 .navbar-new a {
+  color: #fff;
+  /*font-weight: bold;*/
+  font-family: 'Raleway','Helvetica Neue', sans-serif;
+  font-size: 24px;
+  text-transform: lowercase;
+}
 
+.navbar-new a:hover {
+  text-decoration: none;
+  color: #7d9130;
+}
+
+.navbar-new a:active {
+  text-decoration: none;
+  color: #7d9130;
+}
+
+ul.navbar-new {
+  list-style: none;
+  margin: 0 auto;
+  width: 80%;
+  display: table;
 }
 
 li.navbar-new {
-  display: inline;
+  z-index: 10;
+  display: table-cell;
+  margin: 0px 40px;
 }
