@@ -130,15 +130,22 @@ li.navbar-img {
 .container-fluid h1 {
   font-size: 70px;
   color: #7d9130;
-  padding: 25px 90px 15px 90px;
   text-align: center;
-  display: inline-block;
-  position: absolute;
+  /*padding: 25px 90px 15px 90px;*/
+  /*position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 50px;*/
+  /*display: inline-block;*/
   /*background-color: #333;*/
   /*border-radius: 30px;*/
   /*border: 2px solid red;*/
   /*box-shadow: 4px 4px 15px -4px #333;*/
   /*border: 2px solid #f2ddc6;*/
+}
+
+/*PROJECTS GRID*/
+
+.projects-grid {
+  border: 2px solid red;
 }
