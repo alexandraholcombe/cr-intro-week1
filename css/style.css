@@ -11,8 +11,9 @@
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: 0% 60%;
-  background-color: mediumspringgreen;
+  background-color: #7d9130;
   height: 300px;
+  border: 2px solid red;
 }
 
 .jumbotron h1{
@@ -22,6 +23,7 @@
   text-shadow: 4px 4px #333;
   text-align: center;
   margin-top: 45px;
+  border: 2px solid blue;
 }
 
 .jumbotron p{
@@ -31,4 +33,17 @@
   font-style: italic;
   margin-top: -20px;
   text-transform: lowercase;
+  border: 2px solid green;
+}
+
+/*NAVBAR NEW*/
+
+div.navbar-new {
+  /*background-color: darkgray;*/
+  text-align: center;
+  border: 2px solid purple;
+}
+
+li.navbar-new {
+  display: inline;
 }
