@@ -147,9 +147,28 @@ li.navbar-img {
 /*PROJECTS GRID*/
 
 .projects-grid {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
+  padding: .5%;
+}
+
+div.projects {
+  background-color: #fff;
+  /*padding: 10px;*/
+  border: 1px solid #ADADAD;
+  padding: 15px;
+  box-shadow: 3px 3px 10px #d5c3ad;
 }
 
 img.projects {
   width: 100%;
+  /*margin-bottom: 20px;*/
+}
+
+.projects h3 {
+  font-size: 18px;
+  color: #7d9130;
+  font-weight: bold;
+  text-align: center;
+  /*border: 2px solid red;*/
+  margin-top: 15px;
 }
