@@ -9,9 +9,10 @@
 .jumbotron {
   background-image: url(../images/bannerimgfull.jpg);
   background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: 0% 60%;
   background-color: mediumspringgreen;
-
-
+  height: 300px;
 }
 
 .jumbotron h1{
@@ -19,5 +20,6 @@
   font-size: 80px;
   color: #fff;
   text-shadow: 4px 4px #333;
-
+  text-align: center;
+  margin-top: 45px;
 }
