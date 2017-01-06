@@ -149,3 +149,7 @@ li.navbar-img {
 .projects-grid {
   border: 2px solid red;
 }
+
+img.projects {
+  width: 100%;
+}
