@@ -198,7 +198,7 @@ img.projects {
   font-style: italic;
 }
 
-.day-id strong {
+strong {
   font-family: 'Raleway', 'Helvetica Neue', sans-serif;
   font-style: italic;
   font-weight: 800;
@@ -241,9 +241,43 @@ img.projects {
   float: left;
   margin-right: 50px;
   border: 7px solid #333;
+  -webkit-shape-outside:circle();
+  shape-outside:circle(); /*This line may not work*/
 }
 
 h1.about {
   display: inline-block;
   /*padding-left: 90px;*/
+  margin-bottom: 0px;
+}
+
+p.about {
+  font-family: 'Raleway', 'Hevetica Neue', sans-serif;
+  font-size: 18px;
+}
+
+.container-fluid > p:not(.about) {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.quote-this {
+  font-family: 'Raleway', 'Hevetica Neue', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: #7d9130;
+  font-size: 36px;
+  display: block;
+  letter-spacing: .1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+/*Yes, em and strong have the exact same properties...*/
+em {
+  font-family: 'Raleway', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: 800;
 }
