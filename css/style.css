@@ -240,7 +240,6 @@ strong {
   width: 33%;
   float: left;
   margin-right: 50px;
-  border: 7px solid #333;
   -webkit-shape-outside:circle();
   shape-outside:circle(); /*This line may not work*/
 }
@@ -280,4 +279,16 @@ em {
   font-family: 'Raleway', 'Helvetica Neue', sans-serif;
   font-style: italic;
   font-weight: 800;
+}
+
+div.about {
+  padding: 15px;
+}
+
+.about img, img.about {
+    border: 7px solid #333;
+}
+
+.about img {
+  width: 100%;
 }
