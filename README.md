@@ -8,7 +8,7 @@
 
 This webpage is a first-draft portfolio page built with HTML and CSS using the Bootstrap framework.  File contains _index.html_, _projects.html_, images directory, resources directory (including non-Google font used), _style.css_, and _bootstrap.css_.
 
-This project may be viewed on GitHub Pages [here](alexandraholcombe.github.io/cr-intro-week1).
+This project may be viewed on GitHub Pages [here](https://alexandraholcombe.github.io/cr-intro-week1).
 
 ## Setup/Installation Instructions
 
